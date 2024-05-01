@@ -1,0 +1,33 @@
+<style>
+    @media screen and (min-width: 729px) {
+    
+
+        .mobileAppImage {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 728px) {
+        .mobileAppImage {
+            max-width: 100%;
+            height: auto;
+            align-text:center;
+        }
+        .desktopAppImage {
+            display: none;
+        }
+
+    }
+</style>
+<a href="https://www.rue21.com/store/app-giveaway">
+    <div class="desktopAppImage">
+        <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt76ef0360cfee6bf1/663230154124a5578fa6c3f5/1400x185_App_HP.jpg" alt="Enter to Win" style="max-width:100%;" />
+    </div>
+</a>
+
+<a href="" onclick="if(navigator.userAgent.toLowerCase().indexOf('canvas') > 0){this.href='https://cloud.emailrue21.com/MobileAppContest'} else {this.href='https://qr1.be/VDQ9'}">
+    <div class="mobileAppImage">
+        <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt65f4f0e9ddafe9a0/66322fd219d5094875d1eb03/600x300_App_HP.jpg" alt="Enter to Win" style="max-width:100%;" />
+    </div>
+
+</a>
